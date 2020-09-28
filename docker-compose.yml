@@ -1,0 +1,30 @@
+version: "3.8"
+
+services:
+  node1:
+    container_name: node1
+    image: node:v0.1
+    restart: always
+    network_mode: bridge
+
+  node2:
+    container_name: node2
+    image: node:v0.1
+    restart: always
+    network_mode: bridge
+  
+  node3:
+    container_name: node3
+    image: node:v0.1
+    restart: always
+    network_mode: bridge
+
+  node4:
+    container_name: node4
+    image: node:v0.1
+    restart: always
+    network_mode: bridge
+
+
+
+
