@@ -7,4 +7,4 @@ WORKDIR /root/node
 
 COPY ./node .
 
-CMD make client && ./client
+CMD make client && ./client && make clean

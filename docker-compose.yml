@@ -24,7 +24,3 @@ services:
     image: node:v0.1
     restart: always
     network_mode: bridge
-
-
-
-
